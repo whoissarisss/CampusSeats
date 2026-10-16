@@ -1,0 +1,7 @@
+{
+  "name": "Campusland - Gestión de Espacios y Puestos",
+  "description": "Plataforma interactiva de reserva de puestos y salones en Campusland con mapa en vivo, ocupación en tiempo real, calendario semanal, avatares personalizables y notificaciones de turno.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

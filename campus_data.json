@@ -1,0 +1,1510 @@
+{
+  "users": {
+    "1001": {
+      "pin": "1001",
+      "n": "Ana Gómez",
+      "r": "estudiante",
+      "z": "aul",
+      "avatar": {
+        "gender": "femenino",
+        "skinColor": "#ffe0bd",
+        "hairStyle": "largo_liso",
+        "hairColor": "#1e1b2e",
+        "hoodieColor": "#4c1d95",
+        "eyeStyle": "anime_sparkle",
+        "accessory": "ninguno",
+        "expression": "sonrisa"
+      }
+    },
+    "1002": {
+      "pin": "1002",
+      "n": "Luis Pérez",
+      "r": "estudiante",
+      "z": "cwc",
+      "avatar": {
+        "gender": "masculino",
+        "skinColor": "#f7d0b3",
+        "hairStyle": "corto_moderno",
+        "hairColor": "#171717",
+        "hoodieColor": "#3b0764",
+        "eyeStyle": "anime_dark",
+        "accessory": "audifonos",
+        "expression": "concentrado"
+      }
+    },
+    "1003": {
+      "pin": "1003",
+      "n": "Sofía Ruiz",
+      "r": "estudiante",
+      "z": "cwn",
+      "avatar": {
+        "gender": "femenino",
+        "skinColor": "#ffe0bd",
+        "hairStyle": "coleta",
+        "hairColor": "#312e81",
+        "hoodieColor": "#4c1d95",
+        "eyeStyle": "anime_sparkle",
+        "accessory": "gafas",
+        "expression": "guiño"
+      }
+    },
+    "1004": {
+      "pin": "1004",
+      "n": "Camilo Torres",
+      "r": "estudiante",
+      "z": "hun",
+      "avatar": {
+        "gender": "masculino",
+        "skinColor": "#e8b998",
+        "hairStyle": "corto_despeinado",
+        "hairColor": "#2e1065",
+        "hoodieColor": "#18181b",
+        "eyeStyle": "anime_dark",
+        "accessory": "mochila",
+        "expression": "sonrisa"
+      }
+    },
+    "9001": {
+      "pin": "9001",
+      "n": "Laura Gómez",
+      "r": "directivo",
+      "cargo": "Coordinadora Académica",
+      "avatar": {
+        "gender": "femenino",
+        "skinColor": "#ffe0bd",
+        "hairStyle": "largo_liso",
+        "hairColor": "#18181b",
+        "hoodieColor": "#4c1d95",
+        "eyeStyle": "anime_sparkle",
+        "accessory": "credencial",
+        "expression": "sonrisa"
+      }
+    },
+    "9002": {
+      "pin": "9002",
+      "n": "Carlos Rojas",
+      "r": "directivo",
+      "cargo": "Director de Campus",
+      "avatar": {
+        "gender": "masculino",
+        "skinColor": "#f7d0b3",
+        "hairStyle": "corto_moderno",
+        "hairColor": "#171717",
+        "hoodieColor": "#1e1b4b",
+        "eyeStyle": "anime_dark",
+        "accessory": "credencial",
+        "expression": "concentrado"
+      }
+    }
+  },
+  "zones": [
+    {
+      "id": "aud",
+      "n": "Auditorio",
+      "c": "#8b5cf6",
+      "p": "M697 335 Q700 200 800 152 Q850 138 890 140 L892 330 Z",
+      "b": [
+        697,
+        138,
+        195,
+        197
+      ],
+      "a": [
+        715,
+        170,
+        170,
+        150
+      ],
+      "s": 100,
+      "type": "auditorio",
+      "description": "Salón principal para masterclasses, eventos institucionales y demos (100 puestos).",
+      "specs": [
+        "Proyector láser 4K",
+        "Audio envolvente",
+        "Climatización dual",
+        "Podio interactivo"
+      ]
+    },
+    {
+      "id": "caf",
+      "n": "Skilab",
+      "c": "#f59e0b",
+      "p": "M895 140 Q990 140 1060 200 Q1100 240 1100 290 L1100 335 L895 335 Z",
+      "b": [
+        895,
+        140,
+        205,
+        195
+      ],
+      "a": [
+        905,
+        165,
+        185,
+        160
+      ],
+      "s": 20,
+      "type": "gamer",
+      "description": "Laboratorio de desarrollo avanzado y prototipado rápido de software.",
+      "specs": [
+        "Estaciones i9 + RTX 4080",
+        "Monitores duales 144Hz",
+        "Sillas ergonómicas Pro"
+      ]
+    },
+    {
+      "id": "hun",
+      "n": "Cosmos",
+      "c": "#ef4444",
+      "p": "M880 340 L1100 340 L1110 465 L1085 545 L880 545 Z",
+      "b": [
+        880,
+        340,
+        230,
+        205
+      ],
+      "s": 25,
+      "type": "gamer",
+      "description": "Salón de programación intensiva para módulos Frontend y DevOps.",
+      "specs": [
+        "PC Gaming Core i7",
+        "Doble pantalla IPS",
+        "Lockers de almacenamiento"
+      ]
+    },
+    {
+      "id": "cwn",
+      "n": "Spooki",
+      "c": "#14b8a6",
+      "b": [
+        480,
+        425,
+        385,
+        65
+      ],
+      "s": 38,
+      "type": "gamer",
+      "description": "Espacio de trabajo colaborativo para proyectos y hackathons de campus.",
+      "specs": [
+        "Equipos Ryzen 7",
+        "Fibra óptica 1Gbps",
+        "Lockers individuales"
+      ]
+    },
+    {
+      "id": "cwc",
+      "n": "Apolo",
+      "c": "#3b82f6",
+      "b": [
+        585,
+        520,
+        230,
+        280
+      ],
+      "s": 34,
+      "type": "gamer",
+      "description": "Aula especializada en desarrollo Backend, Inteligencia Artificial y Cloud.",
+      "specs": [
+        "Monitores curvos 27\"",
+        "Teclado mecánico y mouse gaming",
+        "Sillas Pro"
+      ]
+    },
+    {
+      "id": "aul",
+      "n": "Artemis",
+      "c": "#ec4899",
+      "p": "M300 598 L468 598 L468 768 L412 768 L412 838 L282 838 Z",
+      "b": [
+        282,
+        598,
+        186,
+        240
+      ],
+      "a": [
+        296,
+        606,
+        160,
+        156
+      ],
+      "s": 32,
+      "type": "gamer",
+      "description": "El salón insignia de entrenamiento intensivo con estaciones duales.",
+      "specs": [
+        "Pantallas duales por puesto",
+        "Torres gaming RGB",
+        "Smart Board 85\"",
+        "Lockers metálicos"
+      ]
+    },
+    {
+      "id": "reu",
+      "n": "Blanca",
+      "c": "#f97316",
+      "b": [
+        827,
+        575,
+        83,
+        60
+      ],
+      "s": 12,
+      "type": "reunion",
+      "description": "Sala de juntas ejecutivas, entrevistas técnicas y reuniones de equipo.",
+      "specs": [
+        "Mesa de conferencia elíptica",
+        "Cámara 360° para videollamadas",
+        "Pizarra táctil"
+      ]
+    },
+    {
+      "id": "jun",
+      "n": "Azul",
+      "c": "#06b6d4",
+      "b": [
+        830,
+        638,
+        85,
+        88
+      ],
+      "s": 10,
+      "type": "reunion",
+      "description": "Sala de estudio grupal y sesiones 1-to-1 con mentores de tecnología.",
+      "specs": [
+        "Pantalla interactiva",
+        "Mesa de coworking",
+        "Insonorización acústica"
+      ]
+    },
+    {
+      "id": "ofi",
+      "n": "Amarillas verdes",
+      "c": "#eab308",
+      "b": [
+        415,
+        772,
+        145,
+        93
+      ],
+      "s": 6,
+      "type": "oficina",
+      "description": "Oficinas de coordinación académica y dirección de Campusland.",
+      "specs": [
+        "Acceso restringido",
+        "Terminal de gestión general"
+      ]
+    }
+  ],
+  "seatsByZone": {
+    "aud": [
+      {
+        "seatIndex": 0,
+        "status": 0
+      },
+      {
+        "seatIndex": 1,
+        "status": 0
+      },
+      {
+        "seatIndex": 2,
+        "status": 0
+      },
+      {
+        "seatIndex": 3,
+        "status": 0
+      },
+      {
+        "seatIndex": 4,
+        "status": 0
+      },
+      {
+        "seatIndex": 5,
+        "status": 0
+      },
+      {
+        "seatIndex": 6,
+        "status": 0
+      },
+      {
+        "seatIndex": 7,
+        "status": 0
+      },
+      {
+        "seatIndex": 8,
+        "status": 0
+      },
+      {
+        "seatIndex": 9,
+        "status": 0
+      },
+      {
+        "seatIndex": 10,
+        "status": 0
+      },
+      {
+        "seatIndex": 11,
+        "status": 0
+      },
+      {
+        "seatIndex": 12,
+        "status": 0
+      },
+      {
+        "seatIndex": 13,
+        "status": 0
+      },
+      {
+        "seatIndex": 14,
+        "status": 0
+      },
+      {
+        "seatIndex": 15,
+        "status": 0
+      },
+      {
+        "seatIndex": 16,
+        "status": 0
+      },
+      {
+        "seatIndex": 17,
+        "status": 0
+      },
+      {
+        "seatIndex": 18,
+        "status": 0
+      },
+      {
+        "seatIndex": 19,
+        "status": 0
+      },
+      {
+        "seatIndex": 20,
+        "status": 0
+      },
+      {
+        "seatIndex": 21,
+        "status": 0
+      },
+      {
+        "seatIndex": 22,
+        "status": 0
+      },
+      {
+        "seatIndex": 23,
+        "status": 0
+      },
+      {
+        "seatIndex": 24,
+        "status": 0
+      },
+      {
+        "seatIndex": 25,
+        "status": 0
+      },
+      {
+        "seatIndex": 26,
+        "status": 0
+      },
+      {
+        "seatIndex": 27,
+        "status": 0
+      },
+      {
+        "seatIndex": 28,
+        "status": 0
+      },
+      {
+        "seatIndex": 29,
+        "status": 0
+      },
+      {
+        "seatIndex": 30,
+        "status": 0
+      },
+      {
+        "seatIndex": 31,
+        "status": 0
+      },
+      {
+        "seatIndex": 32,
+        "status": 0
+      },
+      {
+        "seatIndex": 33,
+        "status": 0
+      },
+      {
+        "seatIndex": 34,
+        "status": 0
+      },
+      {
+        "seatIndex": 35,
+        "status": 0
+      },
+      {
+        "seatIndex": 36,
+        "status": 0
+      },
+      {
+        "seatIndex": 37,
+        "status": 0
+      },
+      {
+        "seatIndex": 38,
+        "status": 0
+      },
+      {
+        "seatIndex": 39,
+        "status": 0
+      },
+      {
+        "seatIndex": 40,
+        "status": 0
+      },
+      {
+        "seatIndex": 41,
+        "status": 0
+      },
+      {
+        "seatIndex": 42,
+        "status": 0
+      },
+      {
+        "seatIndex": 43,
+        "status": 0
+      },
+      {
+        "seatIndex": 44,
+        "status": 0
+      },
+      {
+        "seatIndex": 45,
+        "status": 0
+      },
+      {
+        "seatIndex": 46,
+        "status": 0
+      },
+      {
+        "seatIndex": 47,
+        "status": 0
+      },
+      {
+        "seatIndex": 48,
+        "status": 0
+      },
+      {
+        "seatIndex": 49,
+        "status": 0
+      },
+      {
+        "seatIndex": 50,
+        "status": 0
+      },
+      {
+        "seatIndex": 51,
+        "status": 0
+      },
+      {
+        "seatIndex": 52,
+        "status": 0
+      },
+      {
+        "seatIndex": 53,
+        "status": 0
+      },
+      {
+        "seatIndex": 54,
+        "status": 0
+      },
+      {
+        "seatIndex": 55,
+        "status": 0
+      },
+      {
+        "seatIndex": 56,
+        "status": 0
+      },
+      {
+        "seatIndex": 57,
+        "status": 0
+      },
+      {
+        "seatIndex": 58,
+        "status": 0
+      },
+      {
+        "seatIndex": 59,
+        "status": 0
+      },
+      {
+        "seatIndex": 60,
+        "status": 0
+      },
+      {
+        "seatIndex": 61,
+        "status": 0
+      },
+      {
+        "seatIndex": 62,
+        "status": 0
+      },
+      {
+        "seatIndex": 63,
+        "status": 0
+      },
+      {
+        "seatIndex": 64,
+        "status": 0
+      },
+      {
+        "seatIndex": 65,
+        "status": 0
+      },
+      {
+        "seatIndex": 66,
+        "status": 0
+      },
+      {
+        "seatIndex": 67,
+        "status": 0
+      },
+      {
+        "seatIndex": 68,
+        "status": 0
+      },
+      {
+        "seatIndex": 69,
+        "status": 0
+      },
+      {
+        "seatIndex": 70,
+        "status": 0
+      },
+      {
+        "seatIndex": 71,
+        "status": 0
+      },
+      {
+        "seatIndex": 72,
+        "status": 0
+      },
+      {
+        "seatIndex": 73,
+        "status": 0
+      },
+      {
+        "seatIndex": 74,
+        "status": 0
+      },
+      {
+        "seatIndex": 75,
+        "status": 0
+      },
+      {
+        "seatIndex": 76,
+        "status": 0
+      },
+      {
+        "seatIndex": 77,
+        "status": 0
+      },
+      {
+        "seatIndex": 78,
+        "status": 0
+      },
+      {
+        "seatIndex": 79,
+        "status": 0
+      },
+      {
+        "seatIndex": 80,
+        "status": 0
+      },
+      {
+        "seatIndex": 81,
+        "status": 0
+      },
+      {
+        "seatIndex": 82,
+        "status": 0
+      },
+      {
+        "seatIndex": 83,
+        "status": 0
+      },
+      {
+        "seatIndex": 84,
+        "status": 0
+      },
+      {
+        "seatIndex": 85,
+        "status": 0
+      },
+      {
+        "seatIndex": 86,
+        "status": 0
+      },
+      {
+        "seatIndex": 87,
+        "status": 0
+      },
+      {
+        "seatIndex": 88,
+        "status": 0
+      },
+      {
+        "seatIndex": 89,
+        "status": 0
+      },
+      {
+        "seatIndex": 90,
+        "status": 0
+      },
+      {
+        "seatIndex": 91,
+        "status": 0
+      },
+      {
+        "seatIndex": 92,
+        "status": 0
+      },
+      {
+        "seatIndex": 93,
+        "status": 0
+      },
+      {
+        "seatIndex": 94,
+        "status": 0
+      },
+      {
+        "seatIndex": 95,
+        "status": 0
+      },
+      {
+        "seatIndex": 96,
+        "status": 0
+      },
+      {
+        "seatIndex": 97,
+        "status": 0
+      },
+      {
+        "seatIndex": 98,
+        "status": 0
+      },
+      {
+        "seatIndex": 99,
+        "status": 0
+      }
+    ],
+    "caf": [
+      {
+        "seatIndex": 0,
+        "status": 0
+      },
+      {
+        "seatIndex": 1,
+        "status": 0
+      },
+      {
+        "seatIndex": 2,
+        "status": 0
+      },
+      {
+        "seatIndex": 3,
+        "status": 0
+      },
+      {
+        "seatIndex": 4,
+        "status": 0
+      },
+      {
+        "seatIndex": 5,
+        "status": 0
+      },
+      {
+        "seatIndex": 6,
+        "status": 0
+      },
+      {
+        "seatIndex": 7,
+        "status": 0
+      },
+      {
+        "seatIndex": 8,
+        "status": 0
+      },
+      {
+        "seatIndex": 9,
+        "status": 0
+      },
+      {
+        "seatIndex": 10,
+        "status": 0
+      },
+      {
+        "seatIndex": 11,
+        "status": 0
+      },
+      {
+        "seatIndex": 12,
+        "status": 0
+      },
+      {
+        "seatIndex": 13,
+        "status": 0
+      },
+      {
+        "seatIndex": 14,
+        "status": 0
+      },
+      {
+        "seatIndex": 15,
+        "status": 0
+      },
+      {
+        "seatIndex": 16,
+        "status": 0
+      },
+      {
+        "seatIndex": 17,
+        "status": 0
+      },
+      {
+        "seatIndex": 18,
+        "status": 0
+      },
+      {
+        "seatIndex": 19,
+        "status": 0
+      }
+    ],
+    "hun": [
+      {
+        "seatIndex": 0,
+        "status": 0
+      },
+      {
+        "seatIndex": 1,
+        "status": 0
+      },
+      {
+        "seatIndex": 2,
+        "status": 0
+      },
+      {
+        "seatIndex": 3,
+        "status": 0
+      },
+      {
+        "seatIndex": 4,
+        "status": 0
+      },
+      {
+        "seatIndex": 5,
+        "status": 0
+      },
+      {
+        "seatIndex": 6,
+        "status": 0
+      },
+      {
+        "seatIndex": 7,
+        "status": 0
+      },
+      {
+        "seatIndex": 8,
+        "status": 0
+      },
+      {
+        "seatIndex": 9,
+        "status": 0
+      },
+      {
+        "seatIndex": 10,
+        "status": 0
+      },
+      {
+        "seatIndex": 11,
+        "status": 0
+      },
+      {
+        "seatIndex": 12,
+        "status": 0
+      },
+      {
+        "seatIndex": 13,
+        "status": 0
+      },
+      {
+        "seatIndex": 14,
+        "status": 0
+      },
+      {
+        "seatIndex": 15,
+        "status": 0
+      },
+      {
+        "seatIndex": 16,
+        "status": 0
+      },
+      {
+        "seatIndex": 17,
+        "status": 0
+      },
+      {
+        "seatIndex": 18,
+        "status": 0
+      },
+      {
+        "seatIndex": 19,
+        "status": 0
+      },
+      {
+        "seatIndex": 20,
+        "status": 0
+      },
+      {
+        "seatIndex": 21,
+        "status": 0
+      },
+      {
+        "seatIndex": 22,
+        "status": 0
+      },
+      {
+        "seatIndex": 23,
+        "status": 0
+      },
+      {
+        "seatIndex": 24,
+        "status": 0
+      }
+    ],
+    "cwn": [
+      {
+        "seatIndex": 0,
+        "status": 0
+      },
+      {
+        "seatIndex": 1,
+        "status": 0
+      },
+      {
+        "seatIndex": 2,
+        "status": 0
+      },
+      {
+        "seatIndex": 3,
+        "status": 0
+      },
+      {
+        "seatIndex": 4,
+        "status": 0
+      },
+      {
+        "seatIndex": 5,
+        "status": 0
+      },
+      {
+        "seatIndex": 6,
+        "status": 0
+      },
+      {
+        "seatIndex": 7,
+        "status": 0
+      },
+      {
+        "seatIndex": 8,
+        "status": 0
+      },
+      {
+        "seatIndex": 9,
+        "status": 0
+      },
+      {
+        "seatIndex": 10,
+        "status": 0
+      },
+      {
+        "seatIndex": 11,
+        "status": 0
+      },
+      {
+        "seatIndex": 12,
+        "status": 0
+      },
+      {
+        "seatIndex": 13,
+        "status": 0
+      },
+      {
+        "seatIndex": 14,
+        "status": 0
+      },
+      {
+        "seatIndex": 15,
+        "status": 0
+      },
+      {
+        "seatIndex": 16,
+        "status": 0
+      },
+      {
+        "seatIndex": 17,
+        "status": 0
+      },
+      {
+        "seatIndex": 18,
+        "status": 0
+      },
+      {
+        "seatIndex": 19,
+        "status": 0
+      },
+      {
+        "seatIndex": 20,
+        "status": 0
+      },
+      {
+        "seatIndex": 21,
+        "status": 0
+      },
+      {
+        "seatIndex": 22,
+        "status": 0
+      },
+      {
+        "seatIndex": 23,
+        "status": 0
+      },
+      {
+        "seatIndex": 24,
+        "status": 0
+      },
+      {
+        "seatIndex": 25,
+        "status": 0
+      },
+      {
+        "seatIndex": 26,
+        "status": 0
+      },
+      {
+        "seatIndex": 27,
+        "status": 0
+      },
+      {
+        "seatIndex": 28,
+        "status": 0
+      },
+      {
+        "seatIndex": 29,
+        "status": 0
+      },
+      {
+        "seatIndex": 30,
+        "status": 0
+      },
+      {
+        "seatIndex": 31,
+        "status": 0
+      },
+      {
+        "seatIndex": 32,
+        "status": 0
+      },
+      {
+        "seatIndex": 33,
+        "status": 0
+      },
+      {
+        "seatIndex": 34,
+        "status": 0
+      },
+      {
+        "seatIndex": 35,
+        "status": 0
+      },
+      {
+        "seatIndex": 36,
+        "status": 0
+      },
+      {
+        "seatIndex": 37,
+        "status": 0
+      }
+    ],
+    "cwc": [
+      {
+        "seatIndex": 0,
+        "status": 0
+      },
+      {
+        "seatIndex": 1,
+        "status": 0
+      },
+      {
+        "seatIndex": 2,
+        "status": 2,
+        "occupantName": "Javier Niño",
+        "occupantPin": "5005",
+        "endTime": "19:00"
+      },
+      {
+        "seatIndex": 3,
+        "status": 2,
+        "occupantName": "Paula Vera",
+        "occupantPin": "5006",
+        "endTime": "17:30"
+      },
+      {
+        "seatIndex": 4,
+        "status": 0
+      },
+      {
+        "seatIndex": 5,
+        "status": 0
+      },
+      {
+        "seatIndex": 6,
+        "status": 0
+      },
+      {
+        "seatIndex": 7,
+        "status": 0
+      },
+      {
+        "seatIndex": 8,
+        "status": 0
+      },
+      {
+        "seatIndex": 9,
+        "status": 0
+      },
+      {
+        "seatIndex": 10,
+        "status": 0
+      },
+      {
+        "seatIndex": 11,
+        "status": 0
+      },
+      {
+        "seatIndex": 12,
+        "status": 0
+      },
+      {
+        "seatIndex": 13,
+        "status": 0
+      },
+      {
+        "seatIndex": 14,
+        "status": 0
+      },
+      {
+        "seatIndex": 15,
+        "status": 0
+      },
+      {
+        "seatIndex": 16,
+        "status": 0
+      },
+      {
+        "seatIndex": 17,
+        "status": 0
+      },
+      {
+        "seatIndex": 18,
+        "status": 0
+      },
+      {
+        "seatIndex": 19,
+        "status": 0
+      },
+      {
+        "seatIndex": 20,
+        "status": 0
+      },
+      {
+        "seatIndex": 21,
+        "status": 0
+      },
+      {
+        "seatIndex": 22,
+        "status": 0
+      },
+      {
+        "seatIndex": 23,
+        "status": 0
+      },
+      {
+        "seatIndex": 24,
+        "status": 0
+      },
+      {
+        "seatIndex": 25,
+        "status": 0
+      },
+      {
+        "seatIndex": 26,
+        "status": 0
+      },
+      {
+        "seatIndex": 27,
+        "status": 0
+      },
+      {
+        "seatIndex": 28,
+        "status": 0
+      },
+      {
+        "seatIndex": 29,
+        "status": 0
+      },
+      {
+        "seatIndex": 30,
+        "status": 0
+      },
+      {
+        "seatIndex": 31,
+        "status": 0
+      },
+      {
+        "seatIndex": 32,
+        "status": 0
+      },
+      {
+        "seatIndex": 33,
+        "status": 0
+      }
+    ],
+    "aul": [
+      {
+        "seatIndex": 0,
+        "status": 2,
+        "occupantName": "Mateo Rojas",
+        "occupantPin": "5001",
+        "endTime": "18:30"
+      },
+      {
+        "seatIndex": 1,
+        "status": 2,
+        "occupantName": "David Silva",
+        "occupantPin": "5002",
+        "endTime": "17:00"
+      },
+      {
+        "seatIndex": 2,
+        "status": 0
+      },
+      {
+        "seatIndex": 3,
+        "status": 0
+      },
+      {
+        "seatIndex": 4,
+        "status": 0
+      },
+      {
+        "seatIndex": 5,
+        "status": 0
+      },
+      {
+        "seatIndex": 6,
+        "status": 2,
+        "occupantName": "Carolina Paz",
+        "occupantPin": "5003",
+        "endTime": "16:45"
+      },
+      {
+        "seatIndex": 7,
+        "status": 0
+      },
+      {
+        "seatIndex": 8,
+        "status": 0
+      },
+      {
+        "seatIndex": 9,
+        "status": 0
+      },
+      {
+        "seatIndex": 10,
+        "status": 2,
+        "occupantName": "Esteban Cruz",
+        "occupantPin": "5004",
+        "endTime": "18:00"
+      },
+      {
+        "seatIndex": 11,
+        "status": 0
+      },
+      {
+        "seatIndex": 12,
+        "status": 0
+      },
+      {
+        "seatIndex": 13,
+        "status": 0
+      },
+      {
+        "seatIndex": 14,
+        "status": 0
+      },
+      {
+        "seatIndex": 15,
+        "status": 0,
+        "date": "2026-10-17",
+        "durationMinutes": 120,
+        "reservationId": "res_1792168649460"
+      },
+      {
+        "seatIndex": 16,
+        "status": 0
+      },
+      {
+        "seatIndex": 17,
+        "status": 0
+      },
+      {
+        "seatIndex": 18,
+        "status": 0
+      },
+      {
+        "seatIndex": 19,
+        "status": 0
+      },
+      {
+        "seatIndex": 20,
+        "status": 0
+      },
+      {
+        "seatIndex": 21,
+        "status": 0
+      },
+      {
+        "seatIndex": 22,
+        "status": 0
+      },
+      {
+        "seatIndex": 23,
+        "status": 0
+      },
+      {
+        "seatIndex": 24,
+        "status": 0
+      },
+      {
+        "seatIndex": 25,
+        "status": 0
+      },
+      {
+        "seatIndex": 26,
+        "status": 0
+      },
+      {
+        "seatIndex": 27,
+        "status": 0
+      },
+      {
+        "seatIndex": 28,
+        "status": 0
+      },
+      {
+        "seatIndex": 29,
+        "status": 0
+      },
+      {
+        "seatIndex": 30,
+        "status": 0
+      },
+      {
+        "seatIndex": 31,
+        "status": 0
+      }
+    ],
+    "reu": [
+      {
+        "seatIndex": 0,
+        "status": 0
+      },
+      {
+        "seatIndex": 1,
+        "status": 0
+      },
+      {
+        "seatIndex": 2,
+        "status": 0
+      },
+      {
+        "seatIndex": 3,
+        "status": 0
+      },
+      {
+        "seatIndex": 4,
+        "status": 0
+      },
+      {
+        "seatIndex": 5,
+        "status": 0
+      },
+      {
+        "seatIndex": 6,
+        "status": 0
+      },
+      {
+        "seatIndex": 7,
+        "status": 0
+      },
+      {
+        "seatIndex": 8,
+        "status": 0
+      },
+      {
+        "seatIndex": 9,
+        "status": 0
+      },
+      {
+        "seatIndex": 10,
+        "status": 0
+      },
+      {
+        "seatIndex": 11,
+        "status": 0
+      }
+    ],
+    "jun": [
+      {
+        "seatIndex": 0,
+        "status": 0
+      },
+      {
+        "seatIndex": 1,
+        "status": 0
+      },
+      {
+        "seatIndex": 2,
+        "status": 0
+      },
+      {
+        "seatIndex": 3,
+        "status": 0
+      },
+      {
+        "seatIndex": 4,
+        "status": 0
+      },
+      {
+        "seatIndex": 5,
+        "status": 0
+      },
+      {
+        "seatIndex": 6,
+        "status": 0
+      },
+      {
+        "seatIndex": 7,
+        "status": 0
+      },
+      {
+        "seatIndex": 8,
+        "status": 0
+      },
+      {
+        "seatIndex": 9,
+        "status": 0
+      }
+    ],
+    "ofi": [
+      {
+        "seatIndex": 0,
+        "status": 0
+      },
+      {
+        "seatIndex": 1,
+        "status": 0
+      },
+      {
+        "seatIndex": 2,
+        "status": 0
+      },
+      {
+        "seatIndex": 3,
+        "status": 0
+      },
+      {
+        "seatIndex": 4,
+        "status": 0
+      },
+      {
+        "seatIndex": 5,
+        "status": 0
+      }
+    ]
+  },
+  "roomReservations": {},
+  "reservations": [
+    {
+      "id": "res_1792168649460",
+      "pin": "1001",
+      "userName": "Ana Gómez",
+      "userRole": "estudiante",
+      "userAvatar": {
+        "gender": "femenino",
+        "skinColor": "#ffe0bd",
+        "hairStyle": "largo_liso",
+        "hairColor": "#1e1b2e",
+        "hoodieColor": "#4c1d95",
+        "eyeStyle": "anime_sparkle",
+        "accessory": "ninguno",
+        "expression": "sonrisa"
+      },
+      "roomId": "aul",
+      "roomName": "Artemis",
+      "seatIndex": 15,
+      "date": "2026-10-17",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "durationMinutes": 120,
+      "createdAt": 1792168649460,
+      "status": "expirada"
+    }
+  ],
+  "activity": [
+    {
+      "id": "1792168667426",
+      "text": "Ana Gómez liberó su puesto voluntariamente",
+      "time": "Ahora",
+      "type": "out",
+      "timestamp": 1792168667426
+    },
+    {
+      "id": "1792168649460",
+      "text": "Ana Gómez reservó Puesto #16 en Artemis hasta las 12:00",
+      "time": "Ahora",
+      "type": "in",
+      "timestamp": 1792168649460
+    },
+    {
+      "id": "1",
+      "text": "Mateo Rojas inició turno en Artemis - Puesto #1",
+      "time": "Hace 15 min",
+      "type": "in",
+      "timestamp": 1792167370844
+    },
+    {
+      "id": "2",
+      "text": "David Silva reservó Puesto #2 en Artemis",
+      "time": "Hace 10 min",
+      "type": "in",
+      "timestamp": 1792167670844
+    },
+    {
+      "id": "3",
+      "text": "Javier Niño ocupó Puesto #3 en Apolo",
+      "time": "Hace 5 min",
+      "type": "in",
+      "timestamp": 1792167970844
+    }
+  ]
+}
